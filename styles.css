@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+    word-wrap: break-word;
+    padding: 2rem 5rem;
+
+}
+p{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-family: "Stolzl-Medium";
+    font-size: 2rem;
+    font-weight:lighter;
+}
+
+h4{
+    font-family: "Stolzl-Medium";
+        font-size: 1.8rem;
+        font-weight: lighter;
+}
+.first-text{
+    color: rgb(81, 80, 80);
+}
+.first-main{
+    margin-top: 2rem;
+    background-color: hwb(199 62% 5%);
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profile-image{
+        filter: drop-shadow(5px 5px 50px #ffffff);
+}
+
+.details,.discription{
+    text-align: start;
+}
+
+.discription{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+}
+
+.second-main{
+        display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 50vw;
+            padding-top: 3rem;
+}
+
+.second-text{
+    margin: auto;
+        padding-left: 5px;
+}
+
+.name{
+    margin: 0px;
+}
+
+.buttons{
+    text-align: start;
+    margin-top: 1rem;
+}
+
+input{
+    accent-color: black;
+    padding: 0%;
+    cursor: pointer;
+}
+
+.collen{
+    width: 33px;
+    height: 24px;
+}
+
+.details , .buttons{
+    padding-left: 2.3vw;
+}
+
+#one{
+    margin-left: 0px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .first-main{
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    h3{
+        font-size: larger;
+    }
+    p{
+        font-size: 12px;
+    }
+
+        .collen {
+            width: 10px;
+            height: 10px;
+        }
+        .first-main{
+            padding: 0.2rem;
+        }
+}
